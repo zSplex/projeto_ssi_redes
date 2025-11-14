@@ -1,0 +1,78 @@
+================================================================================
+    PROJETO SSI/IP - INOVASOFT
+    Infraestrutura de Rede Corporativa Segura
+================================================================================
+
+🎯 COMECE AQUI:
+
+1. Leia: PROJETO-SSI-APRESENTACAO.md
+   → Documento completo com tudo que você precisa saber
+   → Explicação geral, como rodar, demonstração, etc.
+
+2. Para rodar a aplicação web:
+   → Entre na pasta app-php/
+   → Siga as instruções do README.md
+
+3. Para ver detalhes técnicos:
+   → Navegue pelas pastas docs/, rede/, servidores/
+
+================================================================================
+
+📂 ESTRUTURA RÁPIDA:
+
+PROJETO-SSI-APRESENTACAO.md  ⭐ COMECE AQUI (Apresentação completa)
+README.md                      (Guia rápido do projeto)
+
+app-php/                       (Aplicação Web - ProjectHub)
+docs/                          (Documentação técnica)
+rede/                          (Configurações de rede)
+servidores/                    (Guias DHCP, DNS, ACLs, scripts)
+
+================================================================================
+
+🚀 RODAR A APLICAÇÃO:
+
+cd app-php
+mysql -u root -p < database/schema.sql
+mysql -u root -p < database/seeds.sql
+cp env.example .env
+(edite o .env com suas credenciais)
+php -S localhost:8080 -t public
+
+Acesse: http://localhost:8080
+Login: eric.santos / Senha@123
+
+================================================================================
+
+👥 EQUIPE:
+
+Eric Santos          - Infraestrutura
+Erik Doca            - Desenvolvimento Web
+Emilly Gonçalves     - Documentação
+João Pedro Vianna    - Redes
+
+================================================================================
+
+⚠️ IMPORTANTE:
+
+- Este é um PROJETO ACADÊMICO
+- Senhas são fracas de propósito (ambiente de teste)
+- Não usar em produção sem melhorias de segurança
+- HTTP apenas (HTTPS seria necessário em produção)
+
+================================================================================
+
+📞 DÚVIDAS?
+
+1. Leia PROJETO-SSI-APRESENTACAO.md
+2. Veja app-php/README.md
+3. Consulte documentos em docs/
+
+================================================================================
+
+Projeto desenvolvido em Novembro/2025
+Curso: Desenvolvimento de Sistemas - 3º Módulo
+Disciplina: Segurança de Sistemas de Informação e Redes
+
+================================================================================
+
